@@ -52,7 +52,7 @@ int main() {
 
         productManager.purchase(appReceiptSender); // Error if name is empty
         //productManager.exampleBadCast(); // Example of error bad cast
-        productManager.exampleBadException(); // Example of bad exception
+        //productManager.exampleBadException(); // Example of bad exception
         //productManager.exampleLengthError(); // Example of length error
 
     } catch(const bad_cast& bc) {
